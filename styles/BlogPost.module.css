@@ -1,0 +1,20 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 6rem;
+    min-height: 100vh;
+    justify-content: flex-start;
+   
+  }
+
+  .description {
+    padding: 0 22rem;
+  }
+
+  @media only screen and (max-width: 600px) {
+    .description {
+      padding: 0 2.5rem;
+    }
+  }

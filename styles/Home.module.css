@@ -5,6 +5,8 @@
   align-items: center;
   padding: 6rem;
   min-height: 100vh;
+  justify-content: flex-start;
+ 
 }
 
 .description {
@@ -16,6 +18,7 @@
   width: 100%;
   z-index: 2;
   font-family: var(--font-mono);
+  max-width: 50vw;
 }
 
 .description a {
@@ -205,6 +208,7 @@
 
   .description {
     font-size: 0.8rem;
+    max-width: 50vw;
   }
 
   .description a {
@@ -274,5 +278,74 @@
   }
   to {
     transform: rotate(0deg);
+  }
+}
+
+
+.mainnav ul {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.mainnav ul li {
+  margin: 0 24px;
+  list-style: none;
+  font-weight: bold;
+}
+
+.myImg{
+  width: 157px;
+  border-radius: 92px;
+}
+
+.imagewrap {
+  padding: 15px 0px;
+  
+}
+
+.h2 {
+  font-size: 2.5rem;
+}
+
+.description {
+  margin-top: -60px;
+}
+
+.h3 {
+  font-size: 1.75rem;
+  margin-top: 0;
+  margin-bottom: 11px;
+}
+
+.title {
+  font-size: 1.5rem;
+  margin-bottom: -90px;
+}
+
+.main {
+  margin-top: -8%;
+}
+
+.btn {
+  color: white;
+  background: black;
+  padding: 7px 6px;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-bottom: 9px;
+  font-size: 11px;
+}
+
+.p {
+  margin: 16px 0;
+  margin-top: 3px;
+}
+
+@media only screen and (max-width: 600px) {
+  .mainnav ul li {
+    margin: 0 6px;
+    list-style: none;
+    font-weight: bold;
   }
 }

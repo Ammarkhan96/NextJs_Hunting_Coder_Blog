@@ -1,0 +1,27 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 6rem;
+    min-height: 100vh;
+    justify-content: flex-start;
+   
+  }
+
+  .btn {
+    color: white;
+    background: seagreen;
+    padding: 7px 6px;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-bottom: 9px;
+    font-size: 11px;
+    border: 2px solid seagreen;
+  }
+
+  @media only screen and (max-width: 600px) {
+    .description {
+      padding: 0 2.5rem;
+    }
+  }
